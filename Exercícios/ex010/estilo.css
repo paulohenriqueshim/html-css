@@ -1,0 +1,20 @@
+
+body {
+    background-color: rgb(164, 204, 190);
+    font-family: monospace;
+}
+h1{
+    color: rgb(38, 161, 120);
+    background-color: rgb(119, 180, 180);
+}
+h2{
+    color: rgb(8, 78, 55);
+    background-color: rgb(119, 180, 180);
+}
+h3{
+    color:rgb(3, 34, 23);
+    background-color:rgb(119, 180, 180);
+}
+p{
+    text-align: justify;
+}
