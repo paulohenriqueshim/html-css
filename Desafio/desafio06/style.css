@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "comic";
+    src: url(ComicNeueSansID.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: "comic";
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > p > a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+    font-size: larger;
+}
+article{
+    margin: 15px;
+    font-size: larger;
+}
