@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <style>
+        table#principal{
+            border: 5px solid blue;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+        td{
+            border: 1px solid black;
+            padding: 10px;
+            width: 100px;
+            text-align: center;
+        }
+        table#secundario{
+            border: 5px solid darkgoldenrod;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+        td.destaque{
+            background-color: darkred;
+            color: skyblue;
+        }
+        h1{
+            text-align: center;
+            text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.329);
+        }
+    </style>
+</head>
+<body>
+
+    <!--
+        hierarquia de tabelas:
+        table = tabela
+        table header = cabeçalho da tabela
+        table row = linha de tabela
+        table data = dados de tabela
+    -->
+    <h1>Tabelas em HTML</h1>
+    <h2>Criando tabelas:</h1>
+
+    <table id="principal">
+        <tr>
+            <td>a1</td>
+            <td>b1</td>
+            <td>c1</td>
+        </tr>
+        <tr>
+            <td>a2</td>
+            <td>b2</td>
+            <td>c2</td>
+        </tr>
+        <tr>
+            <td>a3</td>
+            <td>a3</td>
+            <td>a3</td>
+        </tr>
+    </table>
+    <h2>Colocando <em>CLASS</em> nas tabelas:</h1>
+    <table id="secundario">
+        <tr>
+            <td>a1</td>
+            <td>b1</td>
+            <td class="destaque">c1</td>
+        </tr>
+        <tr>
+            <td>a2</td>
+            <td>b2</td>
+            <td>c2</td>
+        </tr>
+        <tr>
+            <td>a3</td>
+            <td class="destaque">a3</td>
+            <td>a3</td>
+        </tr>
+    </table>
+
+
+
+</body>
+</html>
