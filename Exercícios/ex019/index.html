@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+        h2{
+            color: red;
+        }
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Construindo tabelas grandes</h1>
+    <h2>Números de habitantes por estado no Sudeste</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Estados</th>
+                <th>População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>44 411 238</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>16 054 524</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>20 538 718</td>
+            </tr>
+            <tr>
+                <td>Espírito santo</td>
+                <td>3 833 712</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                    <td><strong>Total de Habitantes</strong></td>
+                    <td><strong>84.838.192</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
