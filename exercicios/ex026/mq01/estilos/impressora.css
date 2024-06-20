@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/*tela ao imprimir a página*/
+
+nav{
+    display: none;
+}
+main::after{
+    content: 'Está é uma impressão do site www.shimcar.com.br';
+}

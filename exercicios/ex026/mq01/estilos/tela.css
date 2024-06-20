@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*estilo para a tela principal*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: lightgray;
+    padding: 10px;
+}
+header > h1{
+    text-align: center;
+    margin: 5px;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    background-color: darkgray;
+    padding: 3px;
+    margin: 3px;
+    border-radius: 10%;
+}
+nav > a:hover{
+    text-decoration: underline;
+    background-color: white;
+    color: darkgray;
+    transition: 0.3s;
+}
+main > p{
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    width: 500px;
+}
+main > h2{
+    text-align: center;
+    margin: 4px;
+}
