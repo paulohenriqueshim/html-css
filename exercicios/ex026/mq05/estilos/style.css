@@ -43,7 +43,7 @@ main{
     margin-top: 10px;
 }
 #burger{
-    background-color: gray;
+    background-color: rgb(65, 65, 65);
     width: 100vw;
     text-align: center;
     display: block;
